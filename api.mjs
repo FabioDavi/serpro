@@ -62,7 +62,7 @@ async function forEachData() {
 
 
 async function filterData() {
-    const arr = [1, 'apple', 'banana', 'orange', 'pineapple', 'watermelon'];
+    const arr = [1, 'apple', 'banana', 'orange', 'pineapple', 'watermelon', 1];
 
     const itensComAnd = arr.filter((item) => {
         if (typeof item !== 'number') return item.includes('an');
